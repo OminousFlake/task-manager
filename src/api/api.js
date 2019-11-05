@@ -34,7 +34,7 @@ export const tasksAPI = {
 		let form = new FormData();
 		form.append("username", data.username);
         form.append("password", data.password);
-		return instance.post(`login?${developer}`, form)			
+		return instance.post(`login${developer}`, form)			
 			.then(res => {
 				return res.data;
 			})
