@@ -4,7 +4,7 @@ const instance = axios.create({
 	baseURL: 'https://uxcandy.com/~shapoval/test-task-backend/v2/'
 });
 
-const developer = `?developer=Alex?`;
+const developer = `?developer=Ninja-test?`;
 
 export const tasksAPI = {
 	fetchTasks(sortField, sortDirection = 'asc', page = 1) {
