@@ -1,0 +1,228 @@
+span {
+	cursor: pointer;
+}
+label {
+	margin-right: 10px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email']
+ {
+	width: 150px;
+	height: 20px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid darkgreen;
+}
+
+textarea {
+	width: 150px;
+	height: 60px;
+	padding: 5px;
+	margin-top: 10px;
+	resize: none;
+	border: 1px solid darkgreen;
+	border-radius: 10px;
+}
+
+button {
+	width: 60px;
+	height: 25px;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.tasksPage {
+	display: flex;
+	flex-direction: column;
+}
+
+.adminLoginFormContainer {
+	position: relative;
+	align-self: flex-end;
+}
+
+.adminLoginForm {
+	width: 300px;
+	height: 120px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.admin-log-out {
+	box-sizing: border-box;
+    height: 120px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.admin-log-out span {
+	width: 80px;
+    height: 25px;
+    padding: 0 5px 5px 5px;
+    margin-right: 10px;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.adminLoginForm-loginButton {
+	margin-top: 10px;
+}
+
+.createFormContainer {
+	width: 250px;
+	margin: 0 0 15px 10px;
+	position: relative;
+}
+
+.createForm {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.adminLoginForm-field,
+.createForm-field {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.sortingForm {
+	margin-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.sortingForm button {
+	margin-right: 10px;
+}
+
+.tasksContainer {
+	min-height: 452px;
+	margin-top: 10px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.task {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.task-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.task-header_save {
+	padding: 0 5px 3px 5px;
+    border-radius: 10px;
+	border: 1px solid darkgreen;
+}
+
+.task-header .edit,
+.task-header_save {
+	margin-left: 10px;
+}
+
+.task-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.task-done {
+	height: 50px;
+}
+
+.task-done input {
+	width: 20px;
+	height: 20px;
+	margin: 5px 220px 0 0;
+}
+
+.edit {
+	cursor: pointer;
+}
+
+.edit img {
+	width: 15px;
+	height: 15px;
+}
+
+.pages {
+	width: 100px;
+	margin: 20px auto 10px auto;
+}
+
+.pages span {
+	margin-right: 5px;
+	padding: 2px 5px;
+	border: 1px solid darkgreen;
+	border-radius: 10px;
+}
+
+.sorting-header {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.sort {
+	width: 80px;
+	padding-left: 5px;
+	text-align: left;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.active-sort {
+	font-weight: bold;
+}
+
+.non-active-sort {
+	font-weight: normal;
+}
+
+.page-selected {
+	font-weight: bold;
+	box-shadow: 0 0 2px 1px darkgreen;
+}
+
+.sort .emoji {
+	margin-left: 5px;
+}
+
+.adminLoginForm-field .withError,
+.createForm-field .withError {
+	border: 1px solid darkred;
+}
+
+.errorMessage {
+	width: 100px;
+	position: absolute;
+	bottom: -15px;
+	right: 10px;
+	font-size: 0.8em;
+	color: darkred;
+}
+
+.createForm-text .errorMessage {
+	bottom: -11px;
+}
+
+.showMessage {
+	position: absolute;
+	bottom: -20px;
+	left: 30px;
+	color: brown;
+}
